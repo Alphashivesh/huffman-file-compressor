@@ -24,17 +24,17 @@ Make sure you have MinGW installed, then run:
 mingw32-make
 ```
 
-# To Compress a File:
+### To Compress a File:
 ```bash
 main -c <input_file> <output_file.bin>
 ```
 
-# To Decompress a File:
+### To Decompress a File:
 ```bash
 main -d <input_file.bin> <output_file.txt>
 ```
 
-# To remove old binaries and test text files, run:
+### To remove old binaries and test text files, run:
 ```bash
 mingw32-make clean
 ```
